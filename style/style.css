@@ -944,13 +944,13 @@ footer
     }
     .header .container .nav ul li {
 
-        margin-left: 3px;
-        padding: 5px;
+        margin-left: 0px;
+        padding: 4px;
     }
     .header .container .nav ul li a
     {
     color: #fff;
-
+    font-size: 16px;
     }
     .come div img 
     {
