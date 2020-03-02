@@ -776,12 +776,12 @@ footer
      /******header****/
 .header
     {
-    background: #475166;
+    background: #cecece;
 
     }
 .header .container
     {
-    background: #475166;
+    background: #cecece;
     }
 .header .container .nav 
     {
@@ -796,16 +796,13 @@ footer
     padding: 10px;
 
     }
-.header .container .nav ul li a
+    .header .container .nav ul li:nth-child(4) ,.header .container .nav ul li:nth-child(5),.header .container .nav ul li:nth-child(6)  
     {
-    color: #fff;
-
+        display: none;
     }
 
-.header .container .logo
-{
-display: none;
-}
+
+
 /********content*********/
 .content
  {
@@ -935,9 +932,31 @@ display: none;
 /***************400px*****************************/
 @media only screen and (max-width: 400px)
 {
-    .come div img {
+    
+    header
+    {
+    background: #475166;
+
+    }
+.header .container
+    {
+    background: #475166;
+    }
+    .header .container .nav ul li a
+    {
+    color: #fff;
+
+    }
+    .come div img 
+    {
         cursor: pointer;
         width: 345px;
         margin-top: 20%;
     }
+
+    .header .container .logo
+    {
+     display: none;
+    }
+    
 }
