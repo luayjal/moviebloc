@@ -776,12 +776,12 @@ footer
      /******header****/
 .header
     {
-    background: #cecece;
+    background: #fdfdfd;
 
     }
 .header .container
     {
-    background: #cecece;
+    background: #fdfdfd;
     }
 .header .container .nav 
     {
@@ -792,7 +792,7 @@ footer
     {
     list-style: none;
     display: inline;
-    margin-left: 0px; 
+    margin-left: 25px; 
     padding: 10px;
 
     }
@@ -933,7 +933,7 @@ footer
 @media only screen and (max-width: 400px)
 {
     
-    header
+    .header
     {
     background: #475166;
 
@@ -941,6 +941,11 @@ footer
 .header .container
     {
     background: #475166;
+    }
+    .header .container .nav ul li {
+
+        margin-left: 3px;
+        padding: 5px;
     }
     .header .container .nav ul li a
     {
